@@ -7,10 +7,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.yide.tutorialmod.TutorialMod;
+import net.yide.tutorialmod.item.custom.ChiselItem;
 
 public class ModItems {
 	public static final	Item CUSTOM_KATANA = registerItem("custom_katana", new Item(new Item.Settings()));
 	public static final Item CUSTOM_CROWN = registerItem("custom_crown", new Item(new Item.Settings()));
+
+	public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
 	private static Item registerItem(String name, Item item) {
 		return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);

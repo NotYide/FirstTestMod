@@ -20,6 +20,7 @@ public class ModItemGroups {
 					.entries((displayContext, entries) -> {
 		entries.add(ModItems.CUSTOM_CROWN);
 		entries.add(ModItems.CUSTOM_KATANA);
+		entries.add(ModItems.CHISEL);
 	}).build());
 
 	public static final ItemGroup CUSTOM_BLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
