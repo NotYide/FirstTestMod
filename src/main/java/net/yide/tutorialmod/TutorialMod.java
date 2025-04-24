@@ -2,6 +2,7 @@ package net.yide.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.yide.tutorialmod.item.ModBlocks;
 import net.yide.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
