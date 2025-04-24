@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:custom_ore",
+    "tutorialmod:custom_blockdrop"
+  ]
+}

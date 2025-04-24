@@ -29,6 +29,8 @@ public class ModItemGroups {
 					.displayName(Text.translatable("itemgroup.tutorialmod.custom_blocks"))
 					.entries((displayContext, entries) -> {
 						entries.add(ModBlocks.CUSTOM_ORE);
+						entries.add(ModBlocks.CUSTOM_BLOCKDROP);
+						entries.add(ModBlocks.CUSTOM_BLOCKDROP_TWO);
 					}).build());
 
 	public static void registerItemsGroup() {
